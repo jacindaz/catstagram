@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 feature "user signs up", %q{
   As a User
@@ -7,7 +7,7 @@ feature "user signs up", %q{
 } do
 
   # Acceptance Criteria
-
+  #
   # - I must provide my email, a password, and a password confirmation
   # - I see an error message if I do not provide all required information
 
